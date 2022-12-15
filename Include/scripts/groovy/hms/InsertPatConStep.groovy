@@ -44,25 +44,41 @@ import cucumber.api.java.en.When
 
 
 
-class login {
-
-	@Given("I am on the app page")
-	def iAmOnTheAppPage() {
+class InsertPatConStep {
+	
+	@Given("I have logged in as a doctor")
+	def iHaveLoggedInAsADoctor() {
 		println name
 	}
 
-	@When("I input (.*) license number and (.*) sandi")
-	def iInputLisensiAndSandi(String licnum, String sandi) {
+	@When("I click tambah kondisi pasien button")
+	def iClickTambahKondisiPasienButton() {
 		println value
 	}
-
-	@And("I click masuk button")
-	def iClickMasukButton() {
+	
+	@And("I input (.*) alergi")
+	def iInputAlergi(String alergi) {
+		println alergi
+	}
+	
+	@And("I input (.*) condition")
+	def iInputCondition(String condition) {
+		println condition
+	}
+	
+	@And("I input (.*) obat")
+	def iInputObat(String obat) {
+		println obat
+	}
+	
+	@And("I click simpan button")
+	def iClickSimpanButton() {
+		println name
+	}
+	
+	@And("I click ya button for confirm")
+	def iClickYaButtonForConfirm() {
 		println name
 	}
 
-	@Then("I verify the (.*) in step")
-	def iVerifyTheStatusInStep(String status) {
-		println status
-	}
 }

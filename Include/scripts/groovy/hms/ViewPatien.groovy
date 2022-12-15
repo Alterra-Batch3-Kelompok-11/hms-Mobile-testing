@@ -45,29 +45,24 @@ import cucumber.api.java.en.When
 
 
 class ViewPatien {
-	
+
 	@Given("I have logged in")
 	def iHaveLoggedIn() {
-		
 	}
 
 	@When("I click jadwal button")
 	def iClickJadwalButton() {
-		
 	}
-	
+
 	@And("I click jadwal kunjungan")
 	def iClickJadwalKunjungan() {
-		
 	}
-	
+
 	@And("I click icon > patien name")
 	def iClickIconPatienName() {
-		
 	}
 
 	@Then("I can see patien data")
 	def iCanSeePatienData() {
-		
 	}
 }

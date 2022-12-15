@@ -13,13 +13,13 @@ Feature: Login
 
     Examples: 
       | licnum  | sandi | status  |
-      | 1029384756 | john123 | success |
-      | 1029384756 | john12 | fail |
-      | 102938475 | john123 | fail |
-      | 102938475 | john12 | fail |
-      | 1029384756 |  | fail |
-      |  | john123 | fail |
-      | | | fail |
+      | 1029384756 | john123 | successlog |
+      | 1029384756 | john12 | faillog |
+      | 102938475 | john123 | faillog |
+      | 102938475 | john12 | faillog |
+      | 1029384756 |  | faillog |
+      |  | john123 | faillog |
+      | | | faillog |
       
   #Scenario: Login click remember me
     #Given I am on the app page
