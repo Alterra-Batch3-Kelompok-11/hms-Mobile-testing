@@ -1,14 +1,15 @@
-@Account
-Feature: Account
+@Logout
+Feature: Logout
   As a User
-	I want to see profile data
-  So I can see profile data
+	I want to logout my account
+  So I can succses logout account
 
-  @Account
-  Scenario: Account profile
+  @Logout
+  Scenario: Logout account
     Given I have logged in
     When I click account button
-    Then I can see profile data
+    And I click button keluar
+    Then I can succes logout
 
     #Examples: 
       #| name  | value | status  |
