@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\ACER\\Documents\\Capston_Proyek\\app-release.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - Nomor Lisensi'), 0)
+
+Mobile.setText(findTestObject(''), '1029384756', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.EditText - Sandi'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Login/android.widget.EditText - Sandi (1)'), 'john123', 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ViewPatien/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ViewPatien/android.view.View'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ViewPatien/android.view.View (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ViewPatien/android.view.View (2)'), 0)
+
+Mobile.closeApplication()
+
