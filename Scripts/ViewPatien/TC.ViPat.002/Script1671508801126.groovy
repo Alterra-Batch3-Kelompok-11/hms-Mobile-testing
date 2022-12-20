@@ -29,5 +29,9 @@ Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.wi
 
 Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.Button'), 0)
 
+Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.view.View'), 0)
+
 Mobile.closeApplication()
 

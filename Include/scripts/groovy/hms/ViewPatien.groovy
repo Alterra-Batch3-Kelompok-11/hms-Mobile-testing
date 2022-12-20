@@ -48,14 +48,28 @@ class ViewPatien {
 
 	@Given("I have logged in")
 	def iHaveLoggedIn() {
+		Mobile.startApplication('C:\\Users\\ACER\\Documents\\Capston_Proyek\\app-release.apk', true)
+
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi'), 0)
+
+		Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi (1)'), '09218764365')
+
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi'), 0)
+
+		Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi (1)'), 'ytta123')
+
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.Button'), 0)
 	}
 
 	@When("I click jadwal button")
 	def iClickJadwalButton() {
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.ImageView'), 0)
 	}
 
 	@And("I click jadwal kunjungan")
 	def iClickJadwalKunjungan() {
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.view.View'), 0)
+		Mobile.closeApplication()
 	}
 
 	@And("I click icon > patien name")

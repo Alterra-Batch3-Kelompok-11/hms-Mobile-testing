@@ -48,21 +48,27 @@ class login {
 
 	@Given("I am on the app page")
 	def iAmOnTheAppPage() {
-		println name
+		Mobile.startApplication('C:\\Users\\ACER\\Documents\\Capston_Proyek\\app-release.apk', true)
 	}
 
 	@When("I input (.*) license number and (.*) sandi")
 	def iInputLisensiAndSandi(String licnum, String sandi) {
-		println value
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi'), 0)
+
+		Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi (1)'), '09218764365')
+
+		Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi'), 0)
+
+		Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi (1)'), 'ytta123')
 	}
 
 	@And("I click masuk button")
 	def iClickMasukButton() {
-		println name
+		Mobile.tap(findTestObject('Object Repository/Login/android.widget.Button'), 0)
 	}
 
 	@Then("I verify the (.*) in step")
 	def iVerifyTheStatusInStep(String status) {
-		println status
+		Mobile.tap(findTestObject('Object Repository/Login/login003/android.view.View'), 0)
 	}
 }

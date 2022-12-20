@@ -9,8 +9,8 @@ Feature: View Patien
     Given I have logged in 
     When I click jadwal button
     And I click jadwal kunjungan
-    And I click icon > patien name
-    Then I can see patien data
+    #And I click icon > patien name
+    #Then I can see patien data
 
     #Examples: 
       #| name  | value | status  |

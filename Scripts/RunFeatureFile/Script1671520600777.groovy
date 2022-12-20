@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ACER\\Documents\\Capston_Proyek\\app-release.apk', true)
+CucumberKW.runFeatureFile('Include/features/Login.feature')
 
-Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi'), 0)
-
-Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi (1)'), '09218764365')
-
-Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi'), 0)
-
-Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi (1)'), 'ytta123')
-
-Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.Button'), 0)
-
-Mobile.closeApplication()
+CucumberKW.runFeatureFile('Include/features/ViewPatien.feature')
 

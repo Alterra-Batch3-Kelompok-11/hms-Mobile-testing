@@ -19,15 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\ACER\\Documents\\Capston_Proyek\\app-release.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/login003/android.widget.EditText - Nomor Lisensi'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Nomor Lisensi (1)'), '09218764365')
+Mobile.sendKeys(findTestObject('Object Repository/Login/login003/android.widget.EditText - Nomor Lisensi (1)'), '09218764365')
 
-Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi'), 0)
+Mobile.tap(findTestObject('Object Repository/Login/login003/android.widget.EditText - Sandi'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.EditText - Sandi (1)'), 'ytta123')
+Mobile.sendKeys(findTestObject('Object Repository/Login/login003/android.widget.EditText - Sandi (1)'), 'ytta123')
 
-Mobile.tap(findTestObject('Object Repository/ViewPatien/ViPat002/android.widget.Button'), 0)
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/Login/login003/android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Login/login003/android.view.View'), 0)
 
 Mobile.closeApplication()
 
