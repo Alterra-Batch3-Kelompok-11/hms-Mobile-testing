@@ -45,14 +45,15 @@ import cucumber.api.java.en.When
 
 
 class NotificationStep {
-	
+
 	@When("I click bell icon")
 	def iClickBellIcon() {
-		println value
+		Mobile.tap(findTestObject('Object Repository/Notification/Notification.001/android.widget.Button (1)'), 0)
 	}
 
 	@Then("I see all notification")
 	def iSeeAllNotification() {
-		println status
+		Mobile.tap(findTestObject('Object Repository/Notification/Notification.001/android.view.View'), 0)
+		Mobile.closeApplication()
 	}
 }

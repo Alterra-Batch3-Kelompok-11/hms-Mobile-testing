@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "DCEBF937CF954B290DB083DA0C138E60",
+  "keywordFileContentHash": "17B96BC35D259CB9DF232F6A85C3A546",
   "keywordClasses": [
     {
       "name": "hms.AccountStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

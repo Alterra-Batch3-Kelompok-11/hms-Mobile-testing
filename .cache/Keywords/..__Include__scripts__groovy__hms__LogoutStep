@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "C128A6CFC783C388956CD250182080CF",
+  "keywordFileContentHash": "9DFC082305CE29DD4E8475DE0FA6F070",
   "keywordClasses": [
     {
       "name": "hms.LogoutStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

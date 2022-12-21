@@ -48,7 +48,7 @@ class AccountStep {
 
 	@When("I click account button")
 	def iClickAccountButton() {
-		println value
+		Mobile.tap(findTestObject('Object Repository/Logout/Logout001/android.view.View'), 0)
 	}
 
 	@Then("I can see profile data")

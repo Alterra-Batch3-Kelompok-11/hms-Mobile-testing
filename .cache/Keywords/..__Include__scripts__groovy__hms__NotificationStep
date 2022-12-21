@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "B00D70593780BA5152E2B52795C1EDD0",
+  "keywordFileContentHash": "744774C73C2DBDC3D52A48A47054DD0C",
   "keywordClasses": [
     {
       "name": "hms.NotificationStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

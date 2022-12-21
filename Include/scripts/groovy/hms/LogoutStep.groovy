@@ -48,11 +48,15 @@ class LogoutStep {
 
 	@And("I click button keluar")
 	def iCLickButtonKeluar() {
-		println value
+		Mobile.tap(findTestObject('Object Repository/Logout/Logout001/android.widget.Button (1)'), 0)
+		
+		Mobile.tap(findTestObject('Object Repository/Logout/Logout001/android.widget.Button (2)'), 0)
 	}
 
 	@Then("I can succes logout")
 	def iCanSuccesLogout() {
-		println status
+		Mobile.tap(findTestObject('Object Repository/Logout/Logout001/android.view.View (1)'), 0)
+		
+		Mobile.closeApplication()
 	}
 }

@@ -45,14 +45,15 @@ import cucumber.api.java.en.When
 
 
 class ConHisStep {
-	
+
 	@And("I click riwayat persetujuan")
 	def iClickRiwayatPersetujuan() {
-		println value
+		Mobile.tap(findTestObject('Object Repository/ConsenHistory/ConHis001/android.view.View'), 0)
 	}
 
 	@Then("I see consent history")
 	def iSeeConsentHistory() {
-		println status
+		Mobile.tap(findTestObject('Object Repository/ConsenHistory/ConHis001/android.view.View (1)'), 0)
+		Mobile.closeApplication()
 	}
 }

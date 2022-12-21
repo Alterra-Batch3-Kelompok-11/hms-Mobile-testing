@@ -49,11 +49,11 @@ class VisHisStep {
 
 	@When("I click riwayat button")
 	def iClickRiwayatButton() {
-		println value
+		Mobile.tap(findTestObject('Object Repository/VisitHistory/VisHis.001/android.widget.ImageView (1)'), 0)
 	}
 
 	@Then("I can see all visit history")
 	def iCanSeeAllVisitHistory() {
-		println status
+		Mobile.tap(findTestObject('Object Repository/VisitHistory/VisHis.001/android.view.View (1)'), 0)
 	}
 }

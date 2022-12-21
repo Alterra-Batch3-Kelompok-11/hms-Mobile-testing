@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "821F056A73EC8EE4D3E38FA5EF45B6EA",
+  "keywordFileContentHash": "526BA3113D208C51ABB145011096BA01",
   "keywordClasses": [
     {
       "name": "hms.ConHisStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
