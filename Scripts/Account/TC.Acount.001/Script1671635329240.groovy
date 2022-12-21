@@ -17,17 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CucumberKW.runFeatureFile('Include/features/Login.feature')
+Mobile.startApplication('C:\\Users\\ACER\\Documents\\Capston_Proyek\\app-release.apk', true)
 
-CucumberKW.runFeatureFile('Include/features/ViewPatien.feature')
+Mobile.tap(findTestObject('Object Repository/Account/Account001/android.widget.EditText - Nomor Lisensi'), 0)
 
-CucumberKW.runFeatureFile('Include/features/VisitHistory.feature')
+Mobile.sendKeys(findTestObject('Object Repository/Account/Account001/android.widget.EditText - Nomor Lisensi (1)'), '09218764365')
 
-CucumberKW.runFeatureFile('Include/features/ConsentHistory.feature')
+Mobile.tap(findTestObject('Object Repository/Account/Account001/android.widget.EditText - Sandi'), 0)
 
-CucumberKW.runFeatureFile('Include/features/Notification.feature')
+Mobile.sendKeys(findTestObject('Object Repository/Account/Account001/android.widget.EditText - Sandi (1)'), 'ytta123')
 
-CucumberKW.runFeatureFile('Include/features/Account.feature')
+Mobile.tap(findTestObject('Object Repository/Account/Account001/android.widget.Button'), 0)
 
-CucumberKW.runFeatureFile('Include/features/Logout.feature')
+Mobile.tap(findTestObject('Object Repository/Account/Account001/android.view.View'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Account/Account001/android.view.View (1)'), 0)
+
+Mobile.closeApplication()
 

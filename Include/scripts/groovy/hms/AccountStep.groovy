@@ -53,6 +53,6 @@ class AccountStep {
 
 	@Then("I can see profile data")
 	def iCanSeeProfileData() {
-		println status
+		Mobile.tap(findTestObject('Object Repository/Account/Account001/android.view.View (1)'), 0)
 	}
 }
