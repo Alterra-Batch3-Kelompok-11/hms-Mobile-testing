@@ -1,0 +1,6 @@
+Link video revisi: https://drive.google.com/file/d/1MeCn6mhST1XeF8qJ13JwgNd2x3qgu-5x/view?usp=sharing
+untuk update kedepannya dapat dilihat pada github yang sudah disediakan: https://github.com/Alterra-Batch3-Kelompok-11
+Terkait MVP dari mobile terutama dibagian register doctor or nurse
+itu berdasarkan kesepakatan bersama kelompok bagian tersebut tidak ada dan
+bagian tersebut (register doctor or nurse) dipindahkan kebagian web.
+sehingga pada aplikasi mobile tidak terdapat fitur register doctor or nurse dan langsung halaman login.
