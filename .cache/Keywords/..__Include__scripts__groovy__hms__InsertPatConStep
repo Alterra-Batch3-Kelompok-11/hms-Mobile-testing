@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "536871C84C2D0CD0D02787CF13431F9C",
+  "keywordFileContentHash": "3FC4B3643AABE307532E8CCE57D6149C",
   "keywordClasses": [
     {
       "name": "hms.InsertPatConStep",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

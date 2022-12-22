@@ -45,7 +45,7 @@ import cucumber.api.java.en.When
 
 
 class InsertPatConStep {
-	
+
 	@Given("I have logged in as a doctor")
 	def iHaveLoggedInAsADoctor() {
 		println name
@@ -55,30 +55,35 @@ class InsertPatConStep {
 	def iClickTambahKondisiPasienButton() {
 		println value
 	}
-	
+
 	@And("I input (.*) alergi")
 	def iInputAlergi(String alergi) {
 		println alergi
 	}
-	
+
 	@And("I input (.*) condition")
 	def iInputCondition(String condition) {
 		println condition
 	}
-	
+
 	@And("I input (.*) obat")
 	def iInputObat(String obat) {
 		println obat
 	}
-	
+
 	@And("I click simpan button")
 	def iClickSimpanButton() {
 		println name
 	}
-	
+
 	@And("I click ya button for confirm")
 	def iClickYaButtonForConfirm() {
 		println name
 	}
-
+	
+	@Then("I see visit schedule")
+	def iSeeVisitSchedule() {
+		Mobile.tap(findTestObject('Object Repository/VisitSchedule/VisSche001/android.view.View (1)'), 0)
+		Mobile.closeApplication()
+	}
 }

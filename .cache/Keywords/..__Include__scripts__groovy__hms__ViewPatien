@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "4B17531DF8E11439561B416545374A8A",
+  "keywordFileContentHash": "6C5A5EB685923C10BCF9EC0CD3F844FB",
   "keywordClasses": [
     {
       "name": "hms.ViewPatien",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

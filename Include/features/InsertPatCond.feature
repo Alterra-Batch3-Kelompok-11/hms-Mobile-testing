@@ -24,4 +24,11 @@ Feature: Patient condition
       |  | hidung mampet dan tenggerokan sakit | mixagrip | failipc |
       | tidak ada | hidung mampet dan tenggerokan sakit |  | failipc |
       | tidak ada |  | mixagrip | failipc |
+    
+  @VisSche    
+  Scenario: Visit schedule
+    Given I have logged in
+    When I click jadwal button
+    And I click jadwal kunjungan
+    Then I see visit schedule
          
